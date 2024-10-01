@@ -1,0 +1,426 @@
+<resources>
+    <string name="app_name">Vowel Security</string>
+
+    <!--Alerts-->
+    <string name="alert">Alert</string>
+    <string name="under_development">Under-Development</string>
+    <string name="ocr_error">Detector dependencies are not yet available.</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="alert_error">Oops! We encountered a internal error. Please check again in a while.</string>
+    <string name="alert_internet">Please check you internet connection and try again!</string>
+
+
+    <!--Image Select Dialog-->
+    <string name="select">Select</string>
+    <string name="take_photo">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="view_image">View Image</string>
+    <string name="permission_camera_deny">Camera permission denied by user</string>
+    <string name="alert_out_of_memory">Phone storage is full</string>
+    <string name="alert_image_select">Please select image</string>
+    <string name="alert_image_size">Selected image size is %d MB\nImage size must not be greater than 2MB</string>
+
+    <!--Login-->
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="welcome_msg">Welcome To Login</string>
+    <string name="alert_invalid_role">No device user found with these credentials, Please contact with admin.</string>
+
+    <!--Login Validations-->
+    <string name="alert_empty_username">Please enter username.</string>
+    <string name="alert_username_length">Username minimum length must be 5.</string>
+    <string name="alert_empty_password">Please enter password.</string>
+    <string name="alert_pwd_Length">Password length must be greater than or equal to 5.</string>
+
+    <!--Dashboard-->
+    <string name="title_home">Home</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_notification">Notifications</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_profile">Profile</string>
+
+    <!--Home-->
+    <string name="title_add_visitor">Add Visitor</string>
+    <string name="title_visitor">Visitors</string>
+    <string name="title_add_sp">Add Service Provider</string>
+    <string name="title_guests">Guests</string>
+    <string name="title_domestic_staff">Domestic Staff</string>
+    <string name="title_staff">Staff</string>
+    <string name="title_service_provider">Service Provider</string>
+    <string name="title_ttl_expected_visitor">Total Expected Visitors</string>
+    <string name="title_expected_visitor">Expected Visitors</string>
+    <string name="title_blacklisted_visitor">Blacklisted Visitors</string>
+    <string name="title_trespasser_visitor">Trespasser Visitors</string>
+    <string name="title_flagged_visitor">Flagged Visitors</string>
+    <string name="title_rejected_visitor">Rejected Visitors</string>
+
+    <string name="title_house_keeping2">House \Help</string>
+    <string name="title_service_provider2">Service \nProvider</string>
+    <string name="title_filter_recurrent_visitor">Filter Recurrent Visitors</string>
+
+    <!--Visitor Profile-->
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out</string>
+    <string name="na">N/A</string>
+    <string name="data_name">Name : %s</string>
+    <string name="data_gender">Gender : %s</string>
+    <string name="data_profile">Profile : %s</string>
+    <string name="data_designation">Designation : %s</string>
+    <string name="data_vehicle">Vehicle No : %s</string>
+    <string name="vehicle_col">Vehicle No :</string>
+    <!--<string name="data_house">House No : %s</string>-->
+    <string name="data_dynamic_premise">%s : %s</string>
+    <string name="data_host">Host : %s</string>
+    <string name="data_time">Time : %s</string>
+    <string name="data_time_slot">Time : %s - %s</string>
+    <string name="data_days_slot">Working Days</string>
+    <string name="data_expected_time">Expected Time : %s</string>
+    <string name="data_identity_type">Identity Type : %s</string>
+    <string name="data_identity">Identity No : %s</string>
+    <string name="data_nationality">Nationality : %s</string>
+    <string name="data_staff_id">Staff ID : %s</string>
+    <string name="data_mobile">Mobile : %s</string>
+    <string name="data_elapsed">Elapsed Time : %s</string>
+    <string name="data_register_by">Registered By : %s</string>
+    <string name="data_register_date">Registered Date : %s</string>
+    <string name="data_type">Visitor Type : %s</string>
+    <string name="data_comp_name">Company Name : %s</string>
+    <string name="data_host_checkout_time">Host Check Out Time : %s</string>
+    <string name="data_time_in">Time In : %s</string>
+    <string name="data_time_out">Time Out : %s</string>
+    <string name="data_is_checkout">Host Check Out : %b</string>
+    <string name="data_reason">Reason : %s</string>
+    <string name="data_blacklisted_by">BlackListed By : %s</string>
+    <string name="data_blacklisted_date">BlackListed Date : %s</string>
+    <string name="data_flagged_by">Flagged By : %s</string>
+    <string name="data_flagged_date">Flagged Date : %s</string>
+
+    <!--Check-In Dialog-->
+    <string name="msg_add_option">Please select Check In option.</string>
+    <string name="scan_id">Scan Id</string>
+    <string name="manually">Manually</string>
+
+    <string name="msg_check_in_option">Select an option for Check In.</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="approve_by_call">Approve by Call</string>
+
+    <string name="msg_check_in_confirmation">Please confirm resident to check in guest or not?</string>
+    <string name="msg_check_in_call">Please call manually and wait for resident confirmation and select option according to resident.</string>
+
+    <string name="commercial_msg_check_in_call">Please call manually and wait for staff confirmation and select option according to staff.</string>
+
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+
+    <!--Guest-->
+    <string name="title_expected_guests">Expected Guests</string>
+    <string name="vehicle">Vehicle No.</string>
+    <string name="enter_name">Enter Name*</string>
+    <string name="enter_identityNo">Enter Identity No*</string>
+    <string name="enter_vehicle">Enter Vehicle No*</string>
+    <string name="enter_contact">Enter Contact*</string>
+    <string name="select_gender">Select Gender*</string>
+    <string name="select_house">Search House Number*</string>
+    <string name="select_owner">Select Owner*</string>
+    <string name="select_host">Select Host*</string>
+    <string name="add">Add</string>
+    <string name="title_add_guest">Add Guest</string>
+    <string name="title_scan_id">Scan ID</string>
+    <string name="title_scan_barcode">QR Scan</string>
+    <string name="close">Close</string>
+    <string name="enter_address">Enter Address*</string>
+
+    <!--Add Guest Check-In Validation-->
+    <string name="alert_empty_id">Please enter identity number.</string>
+    <string name="alert_select_id">Please select identity type.</string>
+    <string name="alert_select_nationality">Please select nationality.</string>
+    <string name="alert_empty_name">Please enter name.</string>
+    <string name="alert_empty_contact">Please enter contact number.</string>
+    <string name="alert_contact_length">Contact number minimum length must be 7 and maximum length 12.</string>
+    <string name="alert_empty_address">Please enter address.</string>
+    <string name="alert_select_gender">Please select gender.</string>
+    <string name="alert_select_house_no">Please select house number.</string>
+    <string name="alert_select_owner">Please select house owner.</string>
+    <string name="alert_select_host">Please select host.</string>
+
+    <!--Visitor Validation-->
+    <string name="alert_select_visitor">Please select visitor type.</string>
+    <string name="alert_select_filter">Please select filter type.</string>
+    <string name="alert_select_assigned_to">Please select assigned to.</string>
+    <string name="alert_select_employment">Please select employment.</string>
+    <string name="alert_enter_profile">Please enter work profile.</string>
+    <string name="alert_enter_comp_name">Please enter company name.</string>
+    <string name="alert_enter_comp_address">Please enter company address.</string>
+
+    <!--Settings-->
+    <string name="device_info">Device Info</string>
+    <string name="app_version">Version %s</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="swahili">Swahili</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="title_logout">Logout</string>
+
+    <!--Logout Dialog-->
+    <string name="logout">Logout!</string>
+    <string name="logout_msg">Are you sure you want to \nlogout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--Language Dialog-->
+    <string name="select_lang">Select Language</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+
+    <!--Info Dialog-->
+    <string name="device_information">Device Information</string>
+    <string name="model">Model : %s</string>
+    <string name="MacID">Device ID : %s</string>
+
+    <!--About & Privacy Policy-->
+    <string name="title_about_us">About Us</string>
+    <string name="title_privacy_policy">Privacy Policy</string>
+
+    <!--Profile-->
+    <string name="deviceName">Name</string>
+    <string name="username">Username</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_email">Enter Your Email Address</string>
+    <string name="gender">Gender</string>
+    <string name="contact">Primary Contact</string>
+    <string name="address">Address</string>
+    <string name="email">E-mail</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <!--Profile Dummy Data-->
+    <string name="dummy_name">Hrithik Kaushal</string>
+    <string name="dummy_username">Hrithik</string>
+    <string name="dummy_contact">9876452310</string>
+    <string name="dummy_address">Rajendra nagar, Indore</string>
+    <string name="dummy_email">user@gmail.com</string>
+
+    <!--Activity-->
+    <string name="check_out_with_count">Check Out : %s</string>
+    <string name="check_in_with_count">Check In : %s</string>
+    <string name="search">Search</string>
+    <string name="search_data">Name,Vehicle,Host Name,House No.</string>
+    <string name="search_data_trespasser">Name,House No.</string>
+    <string name="search_data_black">Name,Black Listed By</string>
+    <string name="search_data_flag">Name,Flagged By</string>
+    <string name="time_in">Time In </string>
+    <string name="house_no">House No.</string>
+    <string name="host">Host</string>
+    <string name="select_visitor_type">Select Visitor Type</string>
+    <string name="select_filter_type">Select Filter Type</string>
+    <string name="visitor_type">Visitor Type</string>
+    <string name="time_out">Time Out</string>
+
+    <!--Other-->
+    <string name="image">IMAGE</string>
+    <string name="success">Success</string>
+    <string name="check_in_rejected">Check In Rejected.</string>
+    <string name="check_in_success">Check In Successfully.</string>
+    <string name="send_notification_success">Notification send successfully</string>
+    <string name="ok">OK</string>
+    <string name="select_identity_type">Select Identity Type*</string>
+    <string name="select_nationality">Select Nationality*</string>
+    <string name="select_assigned_to">Select Assigned To*</string>
+
+    <string name="submit">Submit</string>
+    <string name="or">OR</string>
+    <!--<string name="alert_invalid_id">Invalid identity number</string>-->
+    <string name="alert_invalid_id">Please enter the correct identity number</string>
+    <string name="alert_invalid_name">Invalid Name</string>
+    <string name="alert_id">Please enter valid identity number</string>
+    <string name="please_verify_identity_card_for_check_in">Please verify identity card \nfor check-in</string>
+    <string name="expected">Expected</string>
+    <string name="registered">Registered</string>
+    <string name="check_out_rejected">Check Out Rejected.</string>
+    <string name="msg_check_out_call">Resident didn\'t checkout yet, Please call manually and wait for resident confirmation and select option according to resident.</string>
+    <string name="msg_block">The guest associated with this identity number is blocked by admin.</string>
+    <string name="data_check_in_status">Check In Status : %s</string>
+    <string name="msg_notification">Check In %s by %s</string>
+    <string name="status">Status : %s</string>
+    <string name="no_owner_found">No owner found</string>
+    <string name="no_host_found">No host found</string>
+    <string name="invalid_credentials">Invalid username or password!!</string>
+    <string name="property_info">Property Info</string>
+    <string name="property_type">Property Type</string>
+    <string name="msg_property_image">Property photo not available at \nthe moment!!</string>
+    <string name="extention_no">Secondary Contact</string>
+    <string name="search_here">Search…</string>
+    <string name="country">Country</string>
+    <string name="forgot_password">Forgot Password ?</string>
+
+    <string name="group">Group</string>
+    <string name="rejected_by">Rejected By : %s</string>
+    <string name="property">Property</string>
+    <string name="enter_company_address">Enter Company Address*</string>
+    <string name="enter_company_name">Enter Company Name*</string>
+    <string name="work_profile">Work Profile*</string>
+    <string name="select_employment">Select Employment*</string>
+    <string name="enter_reason">Enter Reason*</string>
+    <string name="reason_cannot_be_empty">Reason cannot be empty!!</string>
+    <string name="are_you_sure">Are you sure you want to REJECT? \n If yes then enter the valid reason. </string>
+    <string name="rejected_on">Rejected On : %s</string>
+
+    <string name="no_expected_visitor">You don\'t have any expected visitors today!</string>
+    <string name="no_expected_guest">You don\'t have any expected guests visitors today!</string>
+    <string name="no_expected_sp">You don\'t have any expected service providers today!</string>
+    <string name="no_expedted_hk">You don\'t have any expected domestic staff today!</string>
+    <string name="no_registerd_hk">You don\'t have any registered domestic staff!</string>
+    <string name="no_blacklisted">You don\'t have any black listed visitors!</string>
+    <string name="no_flagged">You don\'t have any flagged visitors!</string>
+    <string name="no_trespasser_guest">You don\'t have any trespasser guests visitors!</string>
+    <string name="no_trespasser_visitor">You don\'t have any trespasser visitors!</string>
+    <string name="no_trespasser_sp">You don\'t have any trespasser service provider visitors!</string>
+    <string name="no_rejected_sp">You don\'t have any rejected service provider visitors!</string>
+    <string name="no_rejected_guest">You don\'t have any rejected guest visitors!</string>
+    <string name="no_rejected_visitor">You don\'t have any rejected visitors!</string>
+    <string name="no_rejected_staff">You don\'t have any rejected domestic staff!</string>
+    <string name="no_staff">You don\'t have any staff!</string>
+    <string name="no_last_level">You don\'t have any %s!</string>
+    <string name="revisit">Keep visiting this page to see new updates!</string>
+    <string name="continue_">Continue</string>
+    <string name="title_tutorial">How to SCAN ID ?</string>
+    <string name="note_data"> 1. Hold card in-front of camera and try not to move the cards. \n \n  2. Focus only the area of MRZ ID to be scanned. \n \n 3. Click continue to scan id.</string>
+
+    <!--input types added-->
+    <string name="text_without_special_char_value">0123456789- QWERTYUIOPASDFGHJKLZXCVBNMqwertzuiopasdfghjklyxcvbnm</string>
+    <string name="contact_value">0123456789</string>
+    <string name="temperature_value">0123456789.</string>
+    <string name="vehicle_value">0123456789 QWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="name_value">QWERTYUIOPASDFGHJKLZXCVBNM qwertzuiopasdfghjklyxcvbnm</string>
+    <string name="email_value">0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertzuiopasdfghjklyxcvbnm@.</string>
+
+
+    <!--commercial staff labels-->
+    <string name="no_expected_ofc_staff">You don\'t have any expected staff today!</string>
+    <string name="no_registered_ofc_staff">You don\'t have any registered staff!</string>
+    <string name="no_rejected_ofc_staff">You don\'t have any rejected staff!</string>
+    <string name="enter_purpose">Enter purpose of visit*</string>
+    <string name="title_who_to_meet">Whom to meet</string>
+    <string name="who_to_meet">Select whom to meet*</string>
+    <string name="gadgets_info">Gadgets Information</string>
+
+    <string name="enter_gadget_info">Gadgets information</string>
+    <string name="enter_device_name">Name</string>
+    <string name="enter_device_type">Type</string>
+    <string name="enter_device_serial">Serial number</string>
+    <string name="enter_device_tag">Tag number</string>
+    <string name="can_enter_more_device">You can\'t enter more than 5 device details!</string>
+    <string name="can_add_more_member">You can\'t add more than 10 Member!</string>
+    <string name="enter_device_manufacturer">Manufacturer</string>
+    <string name="please_fill_details">Please fill the device details first, if you have device then device name and device serial number is mandatory!!</string>
+    <string name="please_select">Please select</string>
+    <string name="alert_whom_to_meet">Please select whom to meet</string>
+    <string name="please_enter_purpose">Please enter purpose of visit!</string>
+    <string name="view_gadgets_info">View gadgets information</string>
+    <string name="device">Device</string>
+    <string name="add_gadgets_info">Add gadgets information</string>
+    <string name="employment">Employment : %s</string>
+    <string name="commercial_msg_check_out_call">Staff didn\'t checkout yet, Please call manually and wait for staff confirmation and select option according to staff.</string>
+    <string name="search_commercial_staff_data">Name,Staff Id,%s</string>
+    <string name="search_commercial_visitor_data">Name,Staff Name,%s</string>
+    <string name="search_commercial_sp_data">Name,Staff Name,Profile</string>
+    <string name="search_commercial_data_trespasser">Name%s</string>
+    <string name="default_dialing_code">254</string>
+    <string name="default_country">Kenya</string>
+    <string name="blank">This QR code has no data!!</string>
+    <string name="no_data">No data found</string>
+    <string name="ownername">Owner Name</string>
+    <string name="relationship">Relationship</string>
+    <string name="resident_profile">Resident Profile</string>
+    <string name="type">Type</string>
+    <string name="continue1">Continue</string>
+    <string name="administrator">Administrator</string>
+    <string name="data_staff_name">Staff Name : %s</string>
+    <string name="please_select_appropriate_option">Please select the appropriate option to reset your password : </string>
+    <string name="please_enter_username">Please enter username!!</string>
+    <string name="please_enter_email">Please enter valid email!!</string>
+    <string name="note_administrator">Note : Your password reset request will be sent to administrator</string>
+    <string name="add_new_visitor">Add New Visitor</string>
+    <string name="view_document_image">View Document Image</string>
+    <string name="alert_contact_not_start_with_zero">Contact number should not start with 0!</string>
+    <string name="web_mode_only">You can\'t login through mobile application. Please contact to administrator!</string>
+    <string name="select_visitor_category">Select Visitor Category</string>
+    <string name="please_select_visitor_mode">Please Select Visitor mode</string>
+    <string name="select_visitor_mode">Select Visitor Mode</string>
+    <string name="visitor_mode">Visitor Mode : %s</string>
+    <string name="take_image">Take Image</string>
+    <string name="take_no_plate_image">Take No.Plate Image</string>
+    <string name="please_enter_vehical_no">Please enter vehical no</string>
+    <string name="view_no_plate_image">View No.Plate Image</string>
+    <string name="individual">Individual</string>
+    <string name="add_group_member">Add Group Member</string>
+    <string name="family_member">Family Member</string>
+    <string name="fullname">Fullname</string>
+    <string name="document_id">Document Id</string>
+    <string name="contact_no">Contact No</string>
+    <string name="member">Member</string>
+    <string name="title_add_secoundry_guest">Add Secoundary Guest</string>
+    <string name="view_group_member">VIew Group Member</string>
+    <string name="please_capture_vehical_image">Please capture vehicle no.plate image</string>
+    <string name="txt_mobile">Mobile</string>
+    <string name="txt_vehical_no">Vehical No</string>
+    <string name="please_add_group_member_detail_first">Please add group member detail first</string>
+    <string name="minor">Minor</string>
+    <string name="please_select_guest">Please select guest for check in!</string>
+    <string name="please_fill_guest_details">Please fill all details for adults!</string>
+    <string name="data_vip">Is Vip : %s</string>
+    <string name="not_vip">You are not a VIP Guest!</string>
+    <string name="title_secoundary_guest">Secondary Guest</string>
+    <string name="view_secondary_guest">View Secondary Guest : %s</string>
+    <string name="enter_body_temperature">Enter Body Temperature©</string>
+    <string name="body_temp">Body Temperature : %s</string>
+    <string name="vip">VIP</string>
+    <string name="notification_enabled">Trespasser notifications enabled changed successfully</string>
+    <string name="notification_disabled">Trespasser notifications disabled changed successfully</string>
+    <string name="temperature_should_be_30">The temperature should be between 34 and 40!</string>
+    <string name="panic">Panic Alert!</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="description_not_empty">Panic alert description can\'t be empty!</string>
+    <string name="panic_send">Panic notification send successfully!</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="select_vehicle">Select Resident Vehicle</string>
+    <string name="next">Next</string>
+    <string name="check_out_successfully">Check Out Successfully</string>
+
+    <string name="title_connecting">connecting&#8230;</string>
+    <string name="title_connected_to">Printer connected </string>
+    <string name="title_not_connected">Printer not connected</string>
+    <string name="set_printing_type">Set printing type</string>
+    <string name="print">Print</string>
+    <string name="print_label">Print Label</string>
+    <string name="do_you_want_print_label">Do you want to print label?</string>
+    <string name="no_printer_connected">No printer connected!</string>
+    <string name="printer">Print the label</string>
+    <string name="connect_with_printer">Connect with printer</string>
+    <string name="connect_if_not_connected">Connect with printer if not connected!</string>
+    <string name="flagged">Flagged!</string>
+    <string name="bluetooth_not_enabled">Please enable bluetooth!</string>
+    <string name="printer_not_connect">Print not connected, connnect with the printer to print the label!</string>
+    <string name="capture">capture</string>
+    <string name="result">result</string>
+    <string name="vehicle_model">Vehicle model</string>
+    <string name="applicaion_not_found">Application not found</string>
+    <string name="set_printer">Set up printer</string>
+
+    <!--Settings-->
+    <string name="bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="bluetooth_not_supported_msg">This device does not support bluetooth capability.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">To ensure seamless printing of your receipts, we need to establish a Bluetooth connection with your printer. This connection allows us to send the necessary information directly to the printer, ensuring your receipts are printed quickly and accurately.\n\nPlease enable Bluetooth on your device and connect to the printer to proceed with printing.</string>
+    <string name="enable">Enable</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="printing_denied_permission">Receipt printing is not available .Enable bluetooth to start printing.</string>
+    <string name="bluetooth_denied_permission">Bluetooth permission denied</string>
+    <string name="no_paired_devices">No paired devices found.</string>
+    <string name="paired_devices">Paired Bluetooth devices</string>
+    <string name="connected">%s Connected</string>
+    <string name="select_printer_desc">It looks like no printer is selected. Please go to settings and pair a Bluetooth printer first.</string>
+    <string name="device_not_found">The Bluetooth connection failed, and no printer was found.</string>
+</resources>

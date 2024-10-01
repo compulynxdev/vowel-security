@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "14024374449",
+    "project_id": "vowel-security",
+    "storage_bucket": "vowel-security.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14024374449:android:452db32a35035c92c30a90",
+        "android_client_info": {
+          "package_name": "com.evisitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14024374449-ah1thbnjt2ijds70htk875t3dk2e91uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvs-3yA6osGmH4rNr1yCYImjmYlSw7hVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14024374449-ah1thbnjt2ijds70htk875t3dk2e91uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
